@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Kos Griya Barokah</title>
+  
+  <style>
+    /* Menghilangkan sisa margin dan mencegah scroll ganda pada browser */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background-color: #ffffff;
+    }
+
+    /* Membuat iframe memenuhi layar secara presisi di Android & iOS */
+    iframe {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;  /* Fallback untuk browser lama */
+      height: 100dvh; /* Mengikuti tinggi dinamis layar HP (mengatasi bug address bar Safari/Chrome mobile) */
+      border: none;
+    }
+  </style>
+</head>
+<body>
+
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbxQFGPxKD7uAc-tUiKlHCpjC84boxHz1G1q512fMZLVupNW-MmGy2ca-VjssjxUd-uE/exec"
+    allowfullscreen="true">
+  </iframe>
+
+</body>
+</html>
